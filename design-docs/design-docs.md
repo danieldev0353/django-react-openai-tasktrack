@@ -1,6 +1,6 @@
 #  Design Docs
 
-# To-do-list
+# Task management App
 
 Author: Haopeng Zeng <br/>
 
@@ -8,7 +8,7 @@ Date: 10/21/2022 (Updated) <br/>
 
 #  :man_technologist: Overview
 
-I have started this project with the purpose of learning how to developed a full stack application using Django and Django REST Framework as backend and Vue.js as frontend.
+I have started this project with the purpose of learning how to developed a full stack application using Django and Django REST Framework as backend and Vue.js as frontend. This project initially was just a simple to-do-list, but later I decided to add extra more features and turn it into a more complex project called Task management application that supports much more features.
 
 This project allows people to create to-do lists. In order to use this project, users will needs to sign up for an account so that they can create to-do-lists that only belongs to them and no other users can view the to-do-lists. User also have the options to sign in as demo user; however, all demo users shares a single account and therefore to-do-lists created by demo user can be view by all other people who signed in as demo user. It is recommend to create your own account when using this application. Once a to-do-list has been created, user can delete it or update it (CRUD).
 
