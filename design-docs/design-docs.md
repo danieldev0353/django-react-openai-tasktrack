@@ -71,7 +71,12 @@ I put a lot of effort in this Project and I hope that you could enjoy it.
 | JWT Authentication | As a developer, I want the user to login/signup securly | Must have |
 
 
-
+## Features
+ 1. All
+ 2. Completed
+ 3. Incompleted
+ 4. Nearest Due
+ 5. Priority
 
 ## Technical Requirements
 
