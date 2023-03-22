@@ -48,7 +48,7 @@ export default function ChatGPTPage() {
             </div>
           ) : (
             <div className="mr-20 mt-5 flex flex-row" key={index}>
-              <div className="rounded-b-xl rounded-tr-xl bg-gray-100 p-4 shadow-lg">
+              <div className="rounded-b-xl rounded-tr-xl bg-gray-200 p-4 shadow-lg">
                 {message.text}
               </div>
             </div>
