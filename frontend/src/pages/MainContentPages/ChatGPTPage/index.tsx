@@ -36,7 +36,7 @@ export default function ChatGPTPage() {
       onSubmit={sendChatHandler}
     >
       <div className="w-full border-b border-b-gray-300 p-4 font-semibold">
-        Currently Chatting with GPT-3
+        Currently Chatting with GPT-3.5
       </div>
       <div className="w-full p-5">
         {messages.map((message: Message, index) =>
