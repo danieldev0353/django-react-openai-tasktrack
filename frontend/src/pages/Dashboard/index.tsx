@@ -10,7 +10,7 @@ export default function Dashboard() {
       <Header setOpenLeftPanel={setOpenLeftPanel} />
       <div className="flex">
         <div
-          className={`z-50 h-screen lg:block
+          className={`z-30 h-screen lg:block
             ${openLeftPanel ? "absolute top-0" : "hidden"}`}
         >
           <LeftPanel setOpenLeftPanel={setOpenLeftPanel} />
