@@ -11,7 +11,7 @@ type LeftPanelProps = {
 
 export default function LeftPanel({ setOpenLeftPanel }: LeftPanelProps) {
   return (
-    <div className="h-screen w-72 border-r border-gray-100 bg-neutral-50 p-5">
+    <div className="z-50 h-screen w-72 border-r border-gray-200 bg-neutral-50 p-5">
       <img
         className="mb-3 h-6 w-6 lg:hidden"
         src={CrossIcon}
